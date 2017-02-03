@@ -1,0 +1,18 @@
+{
+  "name": "react-native-ffmpeg",
+  "version": "0.1.0",
+  "description": "Run FFMPEG binary from React Native module",
+  "main": "react-native-ffmpeg.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slopen/react-native-ffmpeg"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "android",
+    "ffmpeg"
+  ],
+  "author": "Danil Kostrov (https://github.com/slopen)",
+  "license": "MIT"
+}
