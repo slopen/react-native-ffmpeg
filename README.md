@@ -37,7 +37,7 @@ FFMPEGCommandline
 ```
 
 
-## Constants
+## constants
 
 `FILES_DIR_PATH` - application files absolute path
 
@@ -46,7 +46,7 @@ FFMPEGCommandline
 Module can write to both folders without additional permissions
 
 
-## Events
+## events
 
 `ffmpeg:init` - result of binary ffmpeg installation / exists check
 
@@ -61,3 +61,8 @@ DeviceEventEmitter
     });
 ```
 
+## ffmpeg binaries
+
+NOTE: automatic switch between arm7/x86 is not implemented (also supplying both arm7/x86 will double the the package size)
+
+`/bin` folder contains example arm7/x86 ffmpeg binaries, but actual one used by the module is located [here](https://github.com/trybeo/react-native-ffmpeg/tree/master/android/src/main/res/raw). replace `ffmpeg` file there with proper one, according to cpu architecture used. 
