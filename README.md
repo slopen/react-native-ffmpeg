@@ -65,4 +65,4 @@ DeviceEventEmitter
 
 NOTE: automatic switch between arm7/x86 is not implemented (also supplying both arm7/x86 will double the the package size, ~14.7MB arm7 + ~16.9MB x86)
 
-`/bin` folder contains example arm7/x86 ffmpeg binaries, but actual one used by the module is located [here](https://github.com/trybeo/react-native-ffmpeg/tree/master/android/src/main/res/raw) (default is `arm7`). replace this file with `ffmpeg_x86` if you need x86 support. 
+`/bin` folder contains example arm7/x86 ffmpeg binaries, but actual one used by the module is located [here](https://github.com/slopen/react-native-ffmpeg/tree/master/android/src/main/res/raw) (default is `arm7`). replace this file with `ffmpeg_x86` if you need x86 support. 
